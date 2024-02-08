@@ -1,0 +1,80 @@
+body{
+  background-color: aquamarine;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 0;
+  font-family: "Montserrat ";
+}
+
+form{
+  background-color: white;
+  display: flexbox;
+  margin: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  border: solid 3px ;
+}
+
+.cuadrotexto{
+  margin: auto;
+
+}
+
+#todo{
+  margin: 10px;
+  background-color: rgb(0, 255, 238);
+  width: 600px;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(
+    0, 0, 0, 0.15);
+}
+
+#enviar{
+  background-color: rgb(0, 242, 255);
+  border: none;
+  border-radius: 10px;
+  height: 3em;
+  box-shadow: 1px 1px 5px rgb(
+    0, 0, 0, 0.15);
+  width: 85px;
+  cursor: pointer;
+}
+
+#enviar:hover{
+  background-color: rgb(0, 242, 255, .4);
+}
+
+#enviar:active{
+  background-color: rgb(0, 242, 255, .2);
+}
+
+
+li{
+  background-color: rgb(0, 255, 255);
+  max-width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+  border: solid 3px;
+  cursor: pointer;
+
+}
+
+li:hover{
+  background-color: rgb(0, 255, 255, .4);
+}
+
+li:active{
+  background-color: rgb(0, 255, 255, .2);
+}
+
+ul{
+  padding: 0px;
+}
+
